@@ -1,0 +1,18 @@
+RewriteEngine On
+
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.+)$ trueanswer/index.php [QSA,L]
+
+RewriteEngine on
+
+RewriteRule ^App/?$ - [F,L]
+RewriteRule ^DataBase/?$ - [F,L]
+RewriteRule ^System/?$ - [F,L]
+RewriteRule ^Traits/?$ - [F,L]
+RewriteRule ^Vendors/?$ - [F,L]
+
+Options all -indexes
+Options -indexes
+
