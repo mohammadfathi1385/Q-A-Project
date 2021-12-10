@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #555;
+    margin: 0;
+    font-family: "B yekan", "yekan", Tahoma, Geneva, sans-serif;
+    word-wrap: break-word;
+    padding: 1%;
+  }
+  .dib {
+    display: inline-block;
+  }
+  .kol {
+    /* position: absolute; */
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+  .header {
+    height: 100px;
+  }
+  .footer {
+    font-weight: bold;
+    height: 50px;
+    line-height: 350%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header,
+  .footer {
+    font-size: 9pt;
+    text-align: center;
+    background-color: #000;
+    text-shadow: 0 0 5px #000;
+    color: #fff;
+  }
+  .aya {
+    direction: rtl;
+    font-size: 10pt;
+    box-shadow: 0px 0px 8px 1px #ad9078 inset;
+    text-shadow: 1px 1px 6px #050505;
+    background-color: #c4b99d;
+    color: #fff;
+    height: 24px;
+    display: flex;
+  }
+  .header,
+  .footer,
+  .aya {
+    width: 100%;
+  }
+  .post-text {
+    direction: rtl;
+    text-align: justify;
+    font-size: 10pt;
+    line-height: 160%;
+    padding: 0 0.6em;
+    min-height: 1600px;
+  }
+  .zero {
+    display: none;
+  }
+  .s_onv {
+    line-height: 280%;
+    color: #fff;
+  }
+  .kore {
+    width: 180px;
+    height: 100px;
+  }
+  
+  @media screen and (max-width: 479px) {
+    body {
+      padding: 0;
+    }
+    .zero {
+      display: flex;
+    }
+    .header,
+    .footer,
+    .s_onv,
+    .kore {
+      line-height: 240%;
+      font-size: 7pt;
+      height: 65px;
+    }
+    .kol {
+      margin-top: 0;
+    }
+    .kore {
+      display: none;
+    }
+    .post-text {
+      width: 100%;
+      float: left;
+      min-height: auto;
+    }
+    .sidebar {
+      float: right;
+      width: 100%;
+      padding: 2.2%;
+    }
+    .sidebar1 {
+      width: 100%;
+      float: right;
+    }
+    .sidebar2 {
+      float: left;
+      width: 100%;
+    }
+    .footer {
+      clear: both;
+      width: 100%;
+      font-size: 8pt;
+    }
+  }
+  
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    .zero {
+      display: flex;
+    }
+    .header,
+    .s_onv,
+    .kore {
+      line-height: 240%;
+      font-size: 8pt;
+      height: 80px;
+    }
+    .kore {
+      display: none;
+    }
+    .kol {
+      margin-top: 0;
+    }
+    .post-text {
+      width: 100%;
+      float: left;
+      min-height: auto;
+    }
+    .sidebar {
+      float: right;
+      width: 100%;
+      padding: 1.4%;
+    }
+    .sidebar1 {
+      width: 50%;
+      float: right;
+    }
+    .sidebar2 {
+      float: left;
+      width: 50%;
+    }
+    .footer {
+      clear: both;
+      width: 100%;
+      font-size: 8pt;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1007px) {
+    .post-text {
+      width: 80%;
+      float: left;
+    }
+    .sidebar {
+      float: right;
+      width: 20%;
+    }
+    .sidebar1 {
+      width: 100%;
+      float: right;
+    }
+    .sidebar2 {
+      float: right;
+      width: 100%;
+    }
+    .footer {
+      clear: both;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1008px) and (max-width: 1366px) {
+    .post-text {
+      width: 78%;
+      float: left;
+    }
+    .sidebar {
+      float: right;
+      width: 22%;
+    }
+    .sidebar1 {
+      width: 100%;
+      float: right;
+    }
+    .sidebar2 {
+      float: right;
+      width: 100%;
+    }
+    .footer {
+      clear: both;
+      width: 100%;
+    }
+  }
+  
+  @media screen and (min-width: 1367px) {
+    /* and 1024 */
+    .post-text {
+      line-height: 200%;
+      font-size: 14pt;
+      width: 80%;
+      float: left;
+    }
+    .sidebar {
+      float: right;
+      width: 20%;
+    }
+    .sidebar1 {
+      width: 100%;
+      float: right;
+    }
+    .sidebar2 {
+      float: right;
+      width: 100%;
+    }
+    .footer {
+      clear: both;
+      width: 100%;
+    }
+    .btn {
+      font-size: 13pt;
+      /* height: 30px; */
+    }
+  }

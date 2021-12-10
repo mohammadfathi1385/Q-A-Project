@@ -1,0 +1,180 @@
+
+        .shams-close {
+            background-color: #9e0909;
+            width: 32px;
+            height: 32px;
+            color: #ffffff;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 1px;
+            padding: 0;
+            z-index: 2;
+            cursor: pointer;
+        }
+
+        #animated_div:hover {
+            z-index: 1;
+            background: #79970e;
+            border: 1pt solid #4c5f08;
+        }
+
+        #animated_div {
+            position: sticky;
+            bottom: 5pt;
+            left: 5pt;
+            width: max-content;
+            height: max-content;
+            align-items: center;
+            text-align: center;
+            background: #637c07;
+            border: 1pt solid #4c5f08;
+            color: #ffffff;
+            box-shadow: #000000 0pt 0pt 1pt;
+            padding-left: 14px;
+            padding-right: 41px;
+
+
+            line-height: 180%;
+            font-family: 'B Yekan', 'B Roya', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            animation: animated_div 3s 1;
+            -moz-animation: animated_div 3s 1;
+            -webkit-animation: animated_div 3s 1;
+            -o-animation: animated_div 3s 1;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+        }
+
+        @keyframes animated_div {
+            0% {
+                transform: rotate(0deg);
+                right: 0px;
+            }
+
+            25% {
+                transform: rotate(20deg);
+                right: 0px;
+            }
+
+            50% {
+                transform: rotate(0deg);
+                right: 50%;
+            }
+
+            55% {
+                transform: rotate(0deg);
+                right: 50%;
+            }
+
+            70% {
+                transform: rotate(0deg);
+                right: 50%;
+                background: #0185b9;
+            }
+
+            100% {
+                transform: rotate(-360deg);
+                right: 0px;
+            }
+        }
+
+        @-webkit-keyframes animated_div {
+            0% {
+                -webkit-transform: rotate(0deg);
+                right: 0px;
+            }
+
+            25% {
+                -webkit-transform: rotate(20deg);
+                right: 0px;
+            }
+
+            50% {
+                -webkit-transform: rotate(0deg);
+                right: 500px;
+            }
+
+            55% {
+                -webkit-transform: rotate(0deg);
+                right: 500px;
+            }
+
+            70% {
+                -webkit-transform: rotate(0deg);
+                right: 500px;
+                background: #0185b9;
+            }
+
+            100% {
+                -webkit-transform: rotate(-360deg);
+                right: 0px;
+            }
+        }
+
+        @-moz-keyframes animated_div {
+            0% {
+                -moz-transform: rotate(0deg);
+                right: 0px;
+            }
+
+            25% {
+                -moz-transform: rotate(20deg);
+                right: 0px;
+            }
+
+            50% {
+                -moz-transform: rotate(0deg);
+                right: 500px;
+            }
+
+            55% {
+                -moz-transform: rotate(0deg);
+                right: 500px;
+            }
+
+            70% {
+                -moz-transform: rotate(0deg);
+                right: 500px;
+                background: #0185b9;
+            }
+
+            100% {
+                -moz-transform: rotate(-360deg);
+                right: 0px;
+            }
+        }
+
+        @-o-keyframes animated_div {
+            0% {
+                transform: rotate(0deg);
+                right: 0px;
+            }
+
+            25% {
+                transform: rotate(20deg);
+                right: 0px;
+            }
+
+            50% {
+                transform: rotate(0deg);
+                right: 500px;
+            }
+
+            55% {
+                transform: rotate(0deg);
+                right: 500px;
+            }
+
+            70% {
+                transform: rotate(0deg);
+                right: 500px;
+                background: #0185b9;
+            }
+
+            100% {
+                transform: rotate(-360deg);
+                right: 0px;
+            }
+        }
+        
