@@ -1,0 +1,9 @@
+User-Agent: *
+Disallow: 
+Disallow: /App/
+Disallow: /DataBase/
+Disallow: /Traits/
+Disallow: /System/
+Disallow: /Bootstrap/
+Disallow: /Vendors/
+
